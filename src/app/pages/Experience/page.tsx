@@ -24,14 +24,14 @@ const MainComponent: FC = () => {
       </div>
       <div className='flex-1  mt-10 md:mt-0'>
 
-        <Experience />
+        <Experiences />
       </div>
     </div>
   )
 }
 
 
-export const Experience: FC = () => {
+export const Experiences: FC = () => {
   const data = [
     {
       title: "2019",
