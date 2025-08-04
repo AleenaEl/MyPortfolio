@@ -150,6 +150,7 @@ const Page = () => {
                   }`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
+                
                 <span className="relative">
                   {link.name}
                   {activeLink === link.path && (
