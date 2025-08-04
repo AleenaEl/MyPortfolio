@@ -1,11 +1,14 @@
-
 "use client";
 
 import { useState, useEffect } from "react";
+import { ReactNode } from "react"; // Import ReactNode for typing children
 import Loader from "../loader/page";
 
+interface ClientLayoutProps {
+    children: ReactNode; // Explicitly type the children prop
+}
 
-const ClientLayout = ({ children }) => {
+const ClientLayout = ({ children }: ClientLayoutProps) => {
     const [showContent, setShowContent] = useState(false);
 
     useEffect(() => {
