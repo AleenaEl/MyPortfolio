@@ -29,8 +29,7 @@ const Experience: FC = () => {
     </div>
   )
 }
-
-
+export default Experience;
 export const ProfessionalExp: FC = () => {
   const data = [
     {
@@ -177,5 +176,3 @@ export const Skills: FC = () => {
     </div>
   )
 }
-
-export default Experience;
