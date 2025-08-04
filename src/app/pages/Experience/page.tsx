@@ -127,8 +127,6 @@ export const ProfessionalExp: FC = () => {
       {/* <div className="relative w-full overflow-clip"> */}
       <Timeline data={data} />
       {/* </div> */}
-
-
     </div>
   )
 }
