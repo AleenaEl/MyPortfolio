@@ -15,7 +15,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { Timeline } from "@/components/ui/timeline";
 
 
-const MainComponent: FC = () => {
+const Experience: FC = () => {
   return (
     <div className='flex  flex-col lg:flex-row justify-between w-full text-white h-full'>
       <div className='w-full lg:w-[45%] '>
@@ -24,14 +24,14 @@ const MainComponent: FC = () => {
       </div>
       <div className='flex-1  mt-10 md:mt-0'>
 
-        <Experiences />
+        <ProfessionalExp />
       </div>
     </div>
   )
 }
 
 
-export const Experiences: FC = () => {
+export const ProfessionalExp: FC = () => {
   const data = [
     {
       title: "2019",
@@ -180,4 +180,4 @@ export const Skills: FC = () => {
   )
 }
 
-export default MainComponent;
+export default Experience;
