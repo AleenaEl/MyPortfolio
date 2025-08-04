@@ -211,8 +211,7 @@ const Projects: FC = () => {
   );
 }
 
-export default Projects
-export const CloseIcon = () => {
+ const CloseIcon = () => {
   return (
     <motion.svg
       initial={{
@@ -244,6 +243,7 @@ export const CloseIcon = () => {
     </motion.svg>
   );
 };
+export default Projects
 
 const cards = [
   {
