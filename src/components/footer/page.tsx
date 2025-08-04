@@ -6,7 +6,8 @@ import { Button } from "../ui/button";
 import { useForm, SubmitHandler } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { Input2 } from "../ui/input2";
-import { cn } from "@/lib/utils";
+import { cn } from "../../../lib/utils";
+// import { cn } from "@/lib/utils";
 interface FormInputs {
     user_name: string;
     user_email: string;
