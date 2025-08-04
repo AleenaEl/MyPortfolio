@@ -29,8 +29,8 @@ const Experience: FC = () => {
     </div>
   )
 }
-export default Experience;
-export const ProfessionalExp: FC = () => {
+
+ const ProfessionalExp: FC = () => {
   const data = [
     {
       title: "2019",
@@ -129,7 +129,7 @@ export const ProfessionalExp: FC = () => {
     </div>
   )
 }
-export const Skills: FC = () => {
+ const Skills: FC = () => {
   const skills = [
     { icon: <FaReact />, label: "React" },
     { icon: <RiNextjsFill />, label: "Next.js" },
@@ -176,3 +176,4 @@ export const Skills: FC = () => {
     </div>
   )
 }
+export default Experience;
