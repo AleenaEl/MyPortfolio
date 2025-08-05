@@ -70,7 +70,7 @@ const Footer: FC = () => {
                             <Input2
                                 type="text"
                                 placeholder="Name"
-                                className="bg-[#282828] border-none text-xs text-[#808080]"
+                                className="bg-[#282828] border-none text-sm text-white"
                                 {...register("user_name", { required: "Name is required" })}
                             />
                             </LabelInputContainer>
@@ -84,7 +84,7 @@ const Footer: FC = () => {
                             <Input2
                                 type="email"
                                 placeholder="Email"
-                                className="bg-[#282828] border-none text-sm text-[#808080]"
+                                className="bg-[#282828] border-none text-sm text-white"
                                 {...register("user_email", {
                                     required: "Email is required",
                                     pattern: {
@@ -104,7 +104,7 @@ const Footer: FC = () => {
 
                         <Textarea
                             placeholder="Type your message here."
-                            className="bg-[#282828] border-none text-sm h-full text-[#808080]"
+                            className="bg-[#282828] border-none text-sm h-full text-white"
                             {...register("message", { required: "Message is required" })}
                         />
                         </LabelInputContainer>
@@ -131,7 +131,7 @@ const Footer: FC = () => {
             <div className="flex w-full justify-center  items-center mb-5 text-sm font-extralight ">
                 <div>
 
-                    <p>© All rights reserved by Aleena Eldhose</p>
+                    <p> © All rights reserved by Aleena Eldhose</p>
                 </div>
 
 

@@ -12,8 +12,14 @@ const Loader: FC = () => {
     if (!loading) return null;
   return (
       <div className="h-screen w-screen flex items-center justify-center ">
-          <div className="bar">
-              <div className="ball"></div>
+       
+          <div className="wrapper">
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <div className="circle"></div>
+              <div className="shadow"></div>
+              <div className="shadow"></div>
+              <div className="shadow"></div>
           </div>
       </div>
   )
