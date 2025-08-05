@@ -7,6 +7,7 @@ import ClientLayout from "@/components/ClientLayout/ClientLayout";
 export const metadata: Metadata = {
   title: "Aleena's Portfolio",
   description: "A modern portfolio showcasing React and Next.js projects",
+  icons: { icon:'/images/favicon.png'},
 };
 
 export default function RootLayout({

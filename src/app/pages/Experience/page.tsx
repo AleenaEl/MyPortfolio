@@ -42,7 +42,7 @@ const Experience: FC = () => {
           <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm dark:text-neutral-200">
             Studied under APJ Abdul Kalam Technological University, graduating with an SGPA of 7.9.
           </p>
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             <img
               src="https://example.com/mbits-campus.jpg"
               alt="MBITS campus"
@@ -57,7 +57,7 @@ const Experience: FC = () => {
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-          </div>
+          </div> */}
         </div>
       ),
     },
@@ -71,7 +71,7 @@ const Experience: FC = () => {
           <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm dark:text-neutral-200">
             Completed a 6-month intensive course in MERN Stack development, focusing on MongoDB, Express.js, React, and Node.js.
           </p>
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             <img
               src="https://example.com/luminar-classroom.jpg"
               alt="Luminar Technolab classroom"
@@ -86,7 +86,7 @@ const Experience: FC = () => {
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-          </div>
+          </div> */}
         </div>
       ),
     },
@@ -100,7 +100,7 @@ const Experience: FC = () => {
           <p className="mb-8 text-xs font-normal text-neutral-200 md:text-sm dark:text-neutral-200">
             Working as a Frontend Developer, building responsive and user-friendly web applications using modern JavaScript frameworks.
           </p>
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             <img
               src="https://example.com/teqbae-office.jpg"
               alt="Teqbae office"
@@ -115,7 +115,7 @@ const Experience: FC = () => {
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
             />
-          </div>
+          </div> */}
         </div>
       ),
     },

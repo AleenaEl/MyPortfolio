@@ -131,7 +131,7 @@ const Footer: FC = () => {
             <div className="flex w-full justify-center  items-center mb-5 text-sm font-extralight ">
                 <div>
 
-                    <p> © All rights reserved by Aleena Eldhose</p>
+                    <p> © {new Date().getFullYear()} All rights reserved by Aleena Eldhose</p>
                 </div>
 
 
